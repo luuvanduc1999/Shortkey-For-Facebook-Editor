@@ -1,5 +1,5 @@
 # Set shortkey để chơi Editor nhanh hơn
-
+Không áp dụng bản PC, chỉ chơi m.fb thôi
 ## Cách làm
 1. Vô trang này: https://m.facebook.com/editor
 2. F12 tab Console

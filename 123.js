@@ -16,3 +16,13 @@ document.onkeyup = function(e) {
         if (C[i].children[0].textContent=="Có") C[i].children[1].click();
   } 
 }
+
+function copy(text) {
+    var input = document.createElement('input');
+    input.setAttribute('value', text);
+    document.body.appendChild(input);
+    input.select();
+    var result = document.execCommand('copy');
+    document.body.removeChild(input);
+    return result;
+ }

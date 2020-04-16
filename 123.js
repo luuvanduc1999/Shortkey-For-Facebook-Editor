@@ -26,3 +26,9 @@ function copy(text) {
     document.body.removeChild(input);
     return result;
  }
+document.onkeyup = function(e) {
+  if (e.which == 88) {
+    i=parseInt(document.getElementsByClassName("badge bg-green ng-binding")[0].textContent);
+    copy(i+1);
+  }
+}
